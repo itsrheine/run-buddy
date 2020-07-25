@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Buddy, Inc
 
 ## Purpose
 A website that offers fitness training services.
@@ -11,4 +11,6 @@ A website that offers fitness training services.
 https://itsrheine.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by Marrione Nguyen 
+Made with ❤️ by Marrione Nguyen
+
+### ©️2019 Run Buddy, Inc 
