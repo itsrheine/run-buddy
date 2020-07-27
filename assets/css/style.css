@@ -345,3 +345,18 @@ section {
     color: #fce138;
 }
 /* Reach Out Styles End */
+
+/* Media Query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+
+}
+
+/* Media Query for tablets and smaller */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Media Query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+
+}
