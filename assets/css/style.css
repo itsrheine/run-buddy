@@ -257,6 +257,11 @@ section {
     grid-row: 1/-1;
 }
 
+.box3 {
+    grid-column: 2/ span 2;
+    grid-row: 3/ span 1;
+}
+
 .trainer {
     margin: 20px;
     background: #024e76;
