@@ -392,6 +392,18 @@ section {
     display: flex;
 }
 
+.trainer-1 {
+    background-image: url("./assets/images/trainer-1.jpg");
+}
+
+.trainer-2 {
+    background-image: url("./assets/images/trainer-2.jpg");
+}
+
+.trainer-3 {
+    background-image: url("./assets/images/trainer-3.jpg");
+}
+
 /* Reach Out Styles Start */
 .contact {
     background: var(--secondary-color);
