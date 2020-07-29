@@ -687,6 +687,10 @@ section {
     .trainer-img h3, .trainer-img h4, .trainer-img::after {
         display: none;
     }
+
+    .trainer-bio h3, .trainer-bio h4 {
+        display: block;
+    }
 }
 
 /* Media Query for mobile phones and smaller 
