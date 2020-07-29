@@ -693,7 +693,8 @@ section {
     }
 }
 
-/* Media Query for mobile phones and smaller 
+/* Media Query for mobile phones and smaller */
+
 @media screen and (max-width: 575px) {
 
     .hero-form button {
