@@ -382,10 +382,9 @@ section {
 .trainer-img {
     width: 100%;
     min-height: 300px;
+    background-size: cover;
     display: flex;
     padding: 15px;
-    flex-wrap: wrap;
-    background-size: cover;
     align-items: flex-end;
     position: relative;
 }
@@ -394,10 +393,17 @@ section {
     content: "";
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(252,225,56,0.3), #024e76);
+    background: rgba(252,225,56,0.3);
     position: absolute;
     top: 0;
     left: 0;
+    background: linear-gradient(rgba(252,225,56,0.3), rgba(2,78,118,0.5) );
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.trainer:hover .trainer-img::after {
+    opacity: 1;
 }
 
 .trainer-img h3 {
@@ -410,9 +416,12 @@ section {
 .trainer-img h4 {
     position: relative;
     z-index: 1;
-    font-weight: lighter;
     font-size: 22px;
-    margin-bottom: 15px;
+}
+
+.trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4 {
+    top: 0px;
+    transition: 0.6s;
 }
 
 .trainer-1 {
@@ -506,6 +515,7 @@ section {
 /* Reach Out Styles End */
 
 /* Media Query for smaller desktop screens and smaller */
+
 @media screen and (max-width: 980px) {
 
     header {
@@ -613,7 +623,7 @@ section {
     }
 }
 
-/* Media Query for tablets and smaller */
+/* Media Query for tablets and smaller 
 @media screen and (max-width: 768px) {
 
     .service-grid-container{
@@ -662,7 +672,7 @@ section {
     }
 }
 
-/* Media Query for mobile phones and smaller */
+/* Media Query for mobile phones and smaller 
 @media screen and (max-width: 575px) {
 
     .hero-form button {
